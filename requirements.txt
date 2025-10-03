@@ -1,0 +1,16 @@
+biopython
+esm
+ifeatpro
+ngrampro
+pssmpro
+scikit-learn
+pandas
+tensorflow
+torch
+transformers
+rdkit-pypi
+bioservices
+pubchempy
+matplotlib
+seaborn
+jupyter
