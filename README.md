@@ -2,7 +2,8 @@
 
 # EnzyPred: Enzyme-Substrate Interaction Prediction
 
-![Graphical Abstract](https://raw.githubusercontent.com/tu_usuario/tu_repo/main/images/graphical_abstract.png)
+<img src="https://raw.githubusercontent.com/Grupo-de-Diseno-de-Productos-y-Procesos/EnzyPred/refs/heads/main/images/Graphical_Abstract.png" alt="Graphical Abstract" width="800"/>
+
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tu_usuario/tu_repo/blob/main/notebooks/EnzyPrediction.ipynb)  
 _Click the badge to run this project directly in Google Colab._
@@ -33,6 +34,7 @@ These results confirm EnzyPred’s ability to accelerate molecular interaction d
 * **Substrates** → Encoded with **ECFP** fingerprints to capture chemical and structural information.  
 * **Enzymes** → Encoded using **ESMC** (Protein Language Models), generating dense numerical embeddings of amino acid residues.
 
+<img src="https://raw.githubusercontent.com/Grupo-de-Diseno-de-Productos-y-Procesos/EnzyPred/refs/heads/main/images/General%20Base%20Model.png" alt="Features" width="800"/>
 ---
 
 ### Model Architecture  
@@ -47,7 +49,8 @@ Additional modules improve specificity and adaptability:
 1. **Fine-Tuning** – Retrains on reduced, similarity-based subsets of data.  
 2. **LoRA-P (Low-Rank Adaptation Parallel)** – Efficient, parallel adaptation without losing generalization power.  
 
-![Model Architecture](https://raw.githubusercontent.com/tu_usuario/tu_repo/main/images/model_architecture.png)
+<img src="https://raw.githubusercontent.com/Grupo-de-Diseno-de-Productos-y-Procesos/EnzyPred/refs/heads/main/images/LoRA.png" alt="Model Architecture" width="800"/>
+
 
 ---
 
@@ -62,7 +65,9 @@ Steps:
 
 This approach increased classification accuracy on dissimilar pairs (79.2 → 81.5%).  
 
-![Prioritized Retraining](https://raw.githubusercontent.com/tu_usuario/tu_repo/main/images/prioritized_retraining.png)
+<img src="https://raw.githubusercontent.com/Grupo-de-Diseno-de-Productos-y-Procesos/EnzyPred/refs/heads/main/images/PR.png" alt="Prioritized Retraining" width="800"/>
+
+<img src="https://raw.githubusercontent.com/Grupo-de-Diseno-de-Productos-y-Procesos/EnzyPred/refs/heads/main/images/algorithm%20PR.png" alt="Algorithm PR" width="800"/>
 
 ---
 
